@@ -6,10 +6,7 @@ Zilliz Cloud, o platformă complet gestionată care oferă servicii de baze de d
 
 Selecția setului de date: Utilizăm un set de imagini deja existente: tiny-imagenet-200(contine 10000 de imagini). Descarcam datasetul de aici: https://www.kaggle.com/datasets/nikhilshingadiya/tinyimagenet200/data
 
-La selecția datelor, am ținut cont de limitările impuse de planul gratuit Zilliz Cloud, care include:
--Maximum 5 colecții(tabele).
--5 GB de stocare (suficient pentru aproximativ 1 milion de vectori cu 768 dimensiuni).
--2,5 milioane vCU/lună (capacitate de calcul alocată pentru căutări și inserări).
+La selecția datelor, am ținut cont de limitările impuse de planul gratuit Zilliz Cloud.
 
 Extracția embeddings:
 Imagini: Utilizăm MobileNetV2 pre-antrenat pentru a obține vectori embeddings de lungime 1280. Modelul este potrivit pentru setul nostru de date cu imagini de dimensiuni foarte mici.
